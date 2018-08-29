@@ -1,8 +1,12 @@
 #include "newLib.h"
 #include "classesLesson.h"
 
+int globalVariable = 29;
+static int staticVariable = 20;
+
 int main()
 {
+    /*
 	Log("I AM BATMAN!!");
     int a = getInt("Enter first number");
     int b = getInt("Enter second number");
@@ -23,6 +27,15 @@ int main()
     
     p1.Move(2,-4);
     p1.Display();
+     */
+    
+    // Static and Extern
+    Log("#########################");
+    Log("Extern Variable:");
+    PrintItAll(globalVariable);
+    Log("Static Variable:");
+    PrintItAll(staticVariable);
+    
     
 	Wait;
 }

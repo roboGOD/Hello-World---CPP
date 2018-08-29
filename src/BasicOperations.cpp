@@ -1,5 +1,7 @@
 #include <iostream>
 
+extern int globalVariable;
+
 void Log(const char* message)
 #include "StartBrace.h"
 	std::cout << message << std::endl;
@@ -25,5 +27,5 @@ int mul(int a, int b)
 
 void inc(int& a)
 {
-    a += 10;
+    a += globalVariable;
 }

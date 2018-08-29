@@ -5,6 +5,8 @@
 #ifndef NEWLIB_H
 #define NEWLIB_H
 
+extern int globalVariable;
+
 #include <iostream>
 #define PrintItAll(x) std::cout <<x << std::endl
 #define Wait std::cin.get()
