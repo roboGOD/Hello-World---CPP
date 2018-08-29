@@ -18,6 +18,7 @@ int main()
     p1.x = 10;
     p1.y = 20;
     p1.speed = 2;
+    p1.name = "roboGOD";
     p1.Display();
     
     p1.Move(2,-4);

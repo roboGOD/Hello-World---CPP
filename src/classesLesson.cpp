@@ -2,7 +2,7 @@
 #include "newLib.h"
 
 
-void Player::Move(int xa, int ya)
+void Entity::Move(int xa, int ya)
 {
     x += xa*speed;
     y += ya*speed;
@@ -10,11 +10,21 @@ void Player::Move(int xa, int ya)
 
 void Player::Display()
 {
+    Log("########################");
+    Log("Name: ");
+    Log(name);
     Log("X, Y, Speed:");
     PrintItAll(x);
     PrintItAll(y);
     PrintItAll(speed);
-    Log("!!!!!!!!!!!!!!!!!!!!!");
 }
 
+void Entity::Display()
+{
+    Log("########################");
+    Log("X, Y, Speed:");
+    PrintItAll(x);
+    PrintItAll(y);
+    PrintItAll(speed);
+}
 
