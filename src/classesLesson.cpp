@@ -32,3 +32,8 @@ void PrintName(Entity* e)
 {
     std::cout << e->GetName() << std::endl;
 }
+
+void PrintClass(Printable* p)
+{
+    std::cout << p->GetClassName() << std::endl;
+}

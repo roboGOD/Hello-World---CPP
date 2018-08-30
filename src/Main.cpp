@@ -41,9 +41,11 @@ int main()
     // Virtual Functions
     Entity* e = new Entity();
     PrintName(e);
+    PrintClass(e);
     
     Player* p = new Player("roboGOD");
     PrintName(p);
+    PrintClass(p);
     
 	Wait;
 }
