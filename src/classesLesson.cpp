@@ -28,3 +28,7 @@ void Entity::Display()
     PrintItAll(speed);
 }
 
+void PrintName(Entity* e)
+{
+    std::cout << e->GetName() << std::endl;
+}

@@ -2,7 +2,7 @@
 #include "classesLesson.h"
 
 int globalVariable = 29;
-static int staticVariable = 20;
+//static int staticVariable = 20;
 
 int main()
 {
@@ -27,7 +27,7 @@ int main()
     
     p1.Move(2,-4);
     p1.Display();
-     */
+
     
     // Static and Extern
     Log("#########################");
@@ -35,7 +35,15 @@ int main()
     PrintItAll(globalVariable);
     Log("Static Variable:");
     PrintItAll(staticVariable);
+    */
     
+    
+    // Virtual Functions
+    Entity* e = new Entity();
+    PrintName(e);
+    
+    Player* p = new Player("roboGOD");
+    PrintName(p);
     
 	Wait;
 }
