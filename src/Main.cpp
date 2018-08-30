@@ -6,8 +6,8 @@ int globalVariable = 29;
 
 int main()
 {
-    /*
 	Log("I AM BATMAN!!");
+    /*
     int a = getInt("Enter first number");
     int b = getInt("Enter second number");
     Log(mul(a, b));
@@ -35,7 +35,6 @@ int main()
     PrintItAll(globalVariable);
     Log("Static Variable:");
     PrintItAll(staticVariable);
-    */
     
     
     // Virtual Functions
@@ -46,6 +45,10 @@ int main()
     Player* p = new Player("roboGOD");
     PrintName(p);
     PrintClass(p);
+    */
+     
+    doStringOps();
+    
     
 	Wait;
 }

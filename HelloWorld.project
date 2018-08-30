@@ -4,6 +4,7 @@
 		<VirtualDirectory Name="src">
 			<File Name="src/BasicOperations.cpp"/>
 			<File Name="src/Main.cpp"/>
+			<File Name="src/Strings.cpp"/>
 			<File Name="src/classesLesson.cpp"/>
 		</VirtualDirectory>
 	</VirtualDirectory>
